@@ -65,18 +65,28 @@ Through this lab, I learned how to use Git for version control by following step
 
 ## Screenshots
 
-![hello_world.py Output](lab1_screenshots/hello_world.png)\
+![Git Reporsitory](lab2_screenshots/GIT.png)
 ### Git Repository
 - [ ] GitHub repository with commit history
 - [ ] Local git log showing commits
 
 
 ### GUI Applications
-![hello_world.py Output](lab1_screenshots/hello_world.png)\
+![hello_world.py Output](lab2_screenshots/Hello_flet.png)
 - [ ] hello_flet.py running with all features
-![hello_world.py Output](lab1_screenshots/hello_world.png)\
+
+![personal_info_gui.py Output](lab2_screenshots/Personal_info_gui.png)
 - [ ] personal_info_gui.py with filled form and generated profile
 
 ## Future Enhancements
 
-[Ideas for improving the applications or additional features to implement]
+- **Enhanced Input Validation:** Implement more robust validation for form fields, including regex checks for email and phone numbers.
+- **User Authentication:** Add login and registration features to secure personal information.
+- **Data Persistence:** Integrate local or cloud-based storage to save user profiles and application data.
+- **Responsive Design:** Improve UI responsiveness for different screen sizes and devices.
+- **Export Functionality:** Allow users to export their profile information to PDF or CSV formats.
+- **Theme Customization:** Provide options for users to switch between light and dark modes.
+- **Accessibility Improvements:** Ensure the applications are usable with screen readers and keyboard navigation.
+- **Error Logging:** Add logging for application errors to aid in debugging and maintenance.
+- **Multi-language Support:** Enable localization for different languages to reach a broader audience.
+- **Integration with External APIs:** Connect the applications to external services for extended functionality, such as profile picture uploads or data validation.
