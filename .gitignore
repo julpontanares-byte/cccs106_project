@@ -1,7 +1,5 @@
 # Python Virtual Environment
-venv/
-env/
-
+cccs106_env_Pontanares/
 __pycache__/ 
 *.pyc 
 .vscode/ 
