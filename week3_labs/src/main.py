@@ -131,11 +131,17 @@ def main(page: ft.Page):
 
     # Login button
     login_button = ft.ElevatedButton(
-                text="Login",
-                icon=ft.Icon(ft.Icons.LOGIN, color=ft.Colors.BLACK),
-                width=100,
-                on_click=login_click, 
-            )
+        content=ft.Row(
+            [
+                ft.Icon(ft.Icons.LOGIN, color=ft.Colors.BLACK),
+                ft.Text("Login"),
+            ],
+            alignment="center",
+            spacing=5
+        ),
+        width=100,
+        on_click=login_click, 
+    )
        
     
        
