@@ -19,6 +19,10 @@ Academic Year 2025-2026
 - `week2_labs/personal_info_gui.py` - Enhanced personal information manager
 - `week2_labs/enhanced_calculator.py` - GUI calculator (coming soon)
 
+### Week 3 Labs - Flet User Login Application
+- `week3_labs/main.py` - User Interface
+- `week3_labs/db_connection.py - Database Connection
+
 ### Module 1 Final Project
 - `module1_final/` - Final integrated project (TBD)
 
@@ -27,6 +31,7 @@ Academic Year 2025-2026
 - **Flet 0.28.3** - GUI framework for cross-platform applications
 - **Git & GitHub** - Version control and collaboration
 - **VS Code** - Integrated development environment
+- **XAMPP** - 
 
 ## Development Environment
 - **Virtual Environment:** cccs106_env
