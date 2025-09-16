@@ -21,7 +21,7 @@ Academic Year 2025-2026
 
 ### Week 3 Labs - Flet User Login Application
 - `week3_labs/main.py` - User Interface
-- `week3_labs/db_connection.py - Database Connection
+- `week3_labs/db_connection.py` - Database Connection
 
 ### Module 1 Final Project
 - `module1_final/` - Final integrated project (TBD)
