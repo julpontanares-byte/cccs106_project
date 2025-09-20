@@ -4,13 +4,13 @@ from database import init_db
 from app_logic import display_contacts, add_contact
 
 def main(page: ft.Page):
+    # Page configuration
     page.title = "Contact Book"
     page.vertical_alignment = ft.MainAxisAlignment.START
     page.window_width = 400
     page.window_height = 600
     page.theme_mode = ft.ThemeMode.LIGHT
 
-    theme_switch = ft.Switch(label="Dark Mode")
 
     def toggle_theme(e):
         page.theme_mode = (
