@@ -3,7 +3,7 @@ import flet as ft
 from database import init_db
 from app_logic import display_contacts, add_contact
 
-def main(page: ft.Page):
+def contact_book_app(page: ft.Page):
     # Page configuration
     page.title = "Contact Book"
     page.vertical_alignment = ft.MainAxisAlignment.CENTER
@@ -111,4 +111,4 @@ def main(page: ft.Page):
 
    
 if __name__ == "__main__":
-    ft.app(target=main)
+    ft.app(target=contact_book_app)
