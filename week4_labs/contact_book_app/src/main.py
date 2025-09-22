@@ -52,12 +52,19 @@ def main(page: ft.Page):
     inputs = (name_input, phone_input, email_input)
 
     # ListView to display contacts
+    def handle_scroll(e):
+        # e.pixels is commonly available; fallback to hasattr check if needed
+        pixels = getattr(e, "pixels", None)
+        if pixels is None:
+            pixels = getattr(e, "scroll_offset", None)
+        print("scrolled to:", pixels)
+
     contacts_list_view = ft.ListView(
         expand=True, 
         spacing=10, 
         auto_scroll=False,
         height=300,
-        on_scroll=ft.ScrollMode.ADAPTIVE
+        on_scroll=handle_scroll
     )
 
     search_input = ft.TextField(
