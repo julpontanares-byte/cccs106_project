@@ -23,20 +23,28 @@ Academic Year 2025-2026
 - `week3_labs/main.py` - User Interface
 - `week3_labs/db_connection.py` - Database Connection
 
+### Week 4 Labs - Contact Book Application
+- `week4_labs/contact_book_app/src/main.py` - Main Flet UI for contact book
+- `week4_labs/contact_book_app/src/database.py` - Contact database initialization and operations
+- `week4_labs/contact_book_app/src/app_logic.py` - Logic for displaying and adding contacts
+- `week4_labs/contact_book_app/src/contact_db.sqlite` - SQLite database file for storing contacts
+
 ### Module 1 Final Project
 - `module1_final/` - Final integrated project (TBD)
 
 ## Technologies Used
-- **Python 3.8+** - Main programming language
-- **Flet 0.28.3** - GUI framework for cross-platform applications
-- **Git & GitHub** - Version control and collaboration
-- **VS Code** - Integrated development environment
-- **XAMPP** - 
+- **Python 3.8+** — Main programming language for all projects
+- **Flet 0.28.3** — Cross-platform GUI framework for desktop and web apps
+- **Git & GitHub** — Source code management and collaboration
+- **VS Code** — Code editor and integrated development environment
+- **XAMPP** — Local web server stack for database and backend testing (future use)
+- **SQLite** — Lightweight database for storing application data
 
 ## Development Environment
-- **Virtual Environment:** cccs106_env
-- **Python Packages:** flet==0.28.3
+- **Virtual Environment:** `cccs106_env` (isolates Python dependencies)
+- **Python Packages:** `flet==0.28.3`, `sqlite3` (standard library)
 - **Platform:** Windows 10/11
+- **Additional Tools:** Git Bash, Command Prompt, and PowerShell for running scripts and managing repositories
 
 ## How to Run Applications
 
@@ -48,12 +56,16 @@ Academic Year 2025-2026
 ### Running GUI Applications
 ```cmd
 # Navigate to project directory
+cd week1_labs
 cd week2_labs
+cd week3_labs
+cd week4_labs/contact_book_app/src
+cd module1_final
 
 # Run applications
 python hello_flet.py
 python personal_info_gui.py
-Commit and push README.md
+python contact_book_app.py
 
 # Add the updated README.md file to the staging area
 # This stages the modified README.md file so it will be included in the next commit
