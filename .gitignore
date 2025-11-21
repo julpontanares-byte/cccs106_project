@@ -1,0 +1,6 @@
+# Python Virtual Environment
+cccs106_env_Pontanares/
+__pycache__/ 
+*.pyc 
+.vscode/ 
+*.log 
